@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600;700;800;900&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import "primeflex/primeflex.css";
+
+.ff-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+.ff-roboto-mono {
+  font-family: 'Roboto Mono', monospace;
+}
+
+:root {
+  --bg-color: #252525 !important;
+  --font-color: #fff !important;
+}
+
+body {
+  font-family: var(--font-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.p-card {
+  background-color: var(--bg-color);
+  color: var(--font-color);
+}
